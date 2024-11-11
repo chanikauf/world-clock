@@ -1,12 +1,69 @@
 body {
-  background-color: #d1d8ff;
-  font-family: "Poppins";
-  font-weight: 400;
-  font-style: normal;
+  background-image: url("https://www.custom-wallpaper-printing.co.uk/custom/catalog/map/Light-Political-World-Map-Mural-665429155-Z.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
   max-width: 600px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: #ffffffe3;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  padding: 0px 0px 30px;
+}
+
+#select-cities {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #929292;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 16px;
+  color: #929292;
+}
+
+.time {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+small {
+  font-size: 16px;
+}
+
+hr {
+  border-top: none;
+  border-bottom: dashed 1px #929292;
+}
+
+footer {
+  font-size: 16px;
+  color: #929292;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #000;
 }
