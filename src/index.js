@@ -28,6 +28,21 @@ function updateTime() {
       .tz("America/New_York")
       .format("HH:mm:ss [<small>]A[</small>]");
   }
+
+    //Paris
+
+  let parisElement = document.querySelector("#paris");
+  if (parisElement) {
+    let parisDateElement = document.querySelector("#paris .date");
+    let parisElement = document.querySelector("#paris .time");
+
+    parisDateElement.innerHTML = moment()
+      .tz("Europe/Paris")
+      .format("MMMM Do YYYY");
+    parisTimeElement.innerHTML = moment()
+      .tz("Europe/Paris")
+      .format("HH:mm:ss [<small>]A[</small>]");
+  }
 }
 updateTime();
 setInterval(updateTime, 1000);
