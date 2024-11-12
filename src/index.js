@@ -34,7 +34,7 @@ function updateTime() {
   let parisElement = document.querySelector("#paris");
   if (parisElement) {
     let parisDateElement = document.querySelector("#paris .date");
-    let parisElement = document.querySelector("#paris .time");
+    let parisTimeElement = document.querySelector("#paris .time");
 
     parisDateElement.innerHTML = moment()
       .tz("Europe/Paris")
